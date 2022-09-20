@@ -1,0 +1,211 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    }
+
+   
+    .titulo { 
+        text-align: center;
+        background-color: red;
+        border-radius: 60%;
+        margin: 20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    }
+    
+    
+    .PARTE1 { 
+        padding: 2%;
+        text-align: center;
+        color: red;
+        background-color: black;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0;
+    }
+    
+    
+    
+    .imagen1 { 
+        width: 500px;
+        height: 500px;
+    }
+    
+    
+    .imagen5 {
+        align-self: left;
+        padding: 2%;
+        animation-name: animacion1;
+        animation-duration: 5s;
+        animation-delay: 1s;
+        position: relative;
+    }
+
+    @keyframes animacion1 {
+    0% {background: red;left: 0; top:0px;}
+    50% {background: blue;left: 1000px;}
+    100% {background: black;left:0; top:0px}
+
+    }
+
+    
+    
+    
+.pie-de-pagina {
+
+    width: 100%;
+    background-color: #0a141d
+}
+
+.pie-de-pagina .grupo1 {
+
+    width: 100%;
+    max-width: 1200;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px    
+}
+.pie-de-pagina .grupo1 .box figure {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-de-pagina .grupo1 .box figure img {
+width: 250px;
+}
+.pie-de-pagina .grupo1 .box h2 {
+    color: aliceblue;
+    margin-bottom: 25px;
+    font-size: 20px;
+    }
+
+.pie-de-pagina .grupo1 .box p {
+color: azure;
+margin-bottom: 10px;
+
+}
+
+.pie-de-pagina .grupo1 .red-social a{
+display: inline-block;
+text-decoration: none;
+line-height: 45px;
+color: white;
+margin-right: 10px;
+text-align: center;
+transition: all 300ms ease;
+}
+
+.pie-de-pagina .grupo1 .red-social a:hover {
+color: rgb(255, 0, 0);
+
+}
+.pie-de-pagina .grupo2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+.pie-de-pagina .grupo2 small {
+    font-size: 15px;
+    
+    }
+    
+    @media (maxwidth:600px) {
+    
+    .pie-de-pagina .grupo1 {
+    
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px   
+    
+    }
+    }
+    
+    .titulo2 {
+        color: rgb(211, 255, 16);
+        padding: 2%;
+        text-decoration-line: overline;
+        font-style: oblique;
+        
+    }
+    
+    
+    .texto {
+        color:rgb(252, 252, 252);
+        padding: 2%;
+        text-align:justify;
+        font-size: large;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    
+    body {
+    font-family: sans-serif;
+    margin: 0;
+    
+    }
+    
+    header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding: 10px;
+    font-style: oblique;
+    
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+        animation-name: animacion2;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+        position: relative;
+    }
+
+    @keyframes animacion2 {
+    0% {left: 0; top:0px;}
+    50% {left: 1000px;}
+    100% {background: black;left:0; top:0px}
+
+    }
+    
+    .logoimagen {
+    margin-right: 50px;
+        width: 80px;
+    }
+    
+    .GBFITNESS {
+        color: #ffffff;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    
+    }
+    
+    nav a{
+        font-weight: 600;
+        padding-right: 10px;
+    }
+    
+    nav a:hover{
+        color:red
+    }
+    
+    @media (max-width:700) {
+    
+    }
+
+
