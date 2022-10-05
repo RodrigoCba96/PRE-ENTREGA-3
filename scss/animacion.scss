@@ -1,0 +1,32 @@
+.imagen5 {
+    align-self: left;
+    padding: 2%;
+    animation-name: animacion1;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    position: relative;
+}
+
+@keyframes animacion1 {
+0% {background: red;left: 0; top:0px;}
+50% {background: blue;left: 1000px;}
+100% {background: black;left:0; top:0px}
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    animation-name: animacion2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    position: relative;
+}
+
+@keyframes animacion2 {
+0% {left: 0; top:0px;}
+50% {left: 1000px;}
+100% {background: black;left:0; top:0px}
+
+}
